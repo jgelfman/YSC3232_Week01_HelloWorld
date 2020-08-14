@@ -1,4 +1,5 @@
 language: java
+os: osx
 install: ant deps
 addons:
   apt:
