@@ -1,13 +1,2 @@
 language: java
-os: osx
-install: ant deps
-addons:
-  apt:
-    packages:
-      - ant
-jdk:
-  - oraclejdk9
-  - oraclejdk11
-  - openjdk10
-  - openjdk11
-  - openjdk 14
+script: make
